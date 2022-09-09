@@ -7,7 +7,7 @@ int compare( char *str1,                                  //compare string funct
 
 int main(void)
 {
-	char out[]="exit";                                //the keyword to exit the program
+	char out[4]="exit";                                //the keyword to exit the program
 	char talk[INPUT_SIZE];                            //input array
 
 	while(1){
