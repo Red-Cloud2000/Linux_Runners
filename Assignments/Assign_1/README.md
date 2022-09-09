@@ -4,7 +4,7 @@ The shell will have only one built-in command "exit". If the user entered "exit"
 
 ### Steps to run the program: ###
 1- creat a c file for the program then copy and paste code in it.<br>
-to do this: in your terminal write > vim file_name.c , then paste the code and finally save this file<br>
+to do this: in your terminal write: vim file_name.c , then paste the code and finally save this file<br>
 
 *** Compiling the program *** ⬇️⬇️<br>
 write down these command lines one by one:<br>
