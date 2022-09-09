@@ -3,7 +3,7 @@
 #define INPUT_SIZE   50                                   // size of input array (talk)
 
 int compare( char *str1,                                  //compare string function prototype
-		char *str2 );
+	     char *str2 );
 
 int main(void)
 {
@@ -23,11 +23,11 @@ int main(void)
 			break;
 		}
 	}
-	return 0;
+return 0;
 }
 
 int compare( char *str1,                                  //a function to compare between 2 strings
-		char *str2 )
+	     char *str2 )
 {
 	int i;
 	for(i=0;i<4;i++){
@@ -38,6 +38,6 @@ int compare( char *str1,                                  //a function to compar
 			return 0;
 		}
 	}
-	return 1;
+return 1;
 
 }
