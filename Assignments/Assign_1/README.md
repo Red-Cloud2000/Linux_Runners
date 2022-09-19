@@ -18,5 +18,8 @@ Now you are ready to go<br>
 Just type: &emsp; ./file_name_exe<br>
 <br>
 <br>
-Nice job!! you did it ;)
+Nice job!! you did it ;)<br><br>
+
+### Output Example:
  
+<img width="367" alt="Screenshot 2022-09-19 121643" src="https://user-images.githubusercontent.com/61296209/190996648-b1e6a99a-c59f-4c1e-b1cc-8df8bfe845dc.png">
