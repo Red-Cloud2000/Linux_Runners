@@ -27,11 +27,15 @@ b)&emsp;gcc -shared -o lib"library_name".so *.o                                 
 cd .. <br>
 c)&emsp;gcc -o my_dynamic_exe "main_.o_file" ./"library_folder"/"exact library name as you wrote with lib".so                                                             => to get the main dynamic exe file<br>
 d)&emsp;./my_dynamic_exe                                                                                                => to run the program<br>
+<br><br>
 
 
+### Output Example
 
+<img width="778" alt="Screenshot 2022-09-19 122353" src="https://user-images.githubusercontent.com/61296209/190997656-1a9277be-d9ca-4f59-a367-508b9e922e58.png">
+<br><br>
+### Difference in size between static and dynamic:
 
-
-
+<img width="497" alt="Screenshot 2022-09-19 122737" src="https://user-images.githubusercontent.com/61296209/190998540-0cef5d10-f06d-4625-8009-af6e95126080.png">
 
 
