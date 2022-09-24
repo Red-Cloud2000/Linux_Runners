@@ -16,7 +16,7 @@ char out_ra[4] = "rand";
 char out_fa[4] = "fact";
 char out_fi[4] = "fib";
 
-int action_flag = 0;
+extern int action_flag;
 int res;
 int num;
 int i;
