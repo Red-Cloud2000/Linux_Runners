@@ -5,9 +5,9 @@ assign_3main.o: assign_3main.c compare.h fib.h fact.h rand.h
 	gcc -c assign_3main.c -I.
 
 libmy_dynamic.so: compare.o fib.o fact.o rand.o
-	gcc -shared compare.o fib.o fact.o rand.o -o libmy_dynamic.so
+	gcc -shared -o libmy_dynamic.so compare.o fib.o fact.o rand.o
 
-comapare.o: compare.c compare.h
+compare.o: compare.c compare.h
 	gcc -fPIC -c compare.c -I.
 
 fib.o: fib.c fib.h
