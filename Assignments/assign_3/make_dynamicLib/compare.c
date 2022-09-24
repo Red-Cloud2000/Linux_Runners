@@ -1,5 +1,5 @@
 
-extern int action_flag;
+int action_flag=0;
 
 extern char out_ex[4] ;
 extern char out_ra[4] ;
